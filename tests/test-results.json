@@ -1,8 +1,8 @@
 {
   "config": {
-    "configFile": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/playwright.config.ts",
-    "rootDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
-    "forbidOnly": false,
+    "configFile": "/home/runner/work/browser_extension_test/browser_extension_test/playwright.config.ts",
+    "rootDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
+    "forbidOnly": true,
     "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
@@ -11,7 +11,29 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "ci": {
+        "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/3d11c6857b801d9a9f534206c619735743d430f0",
+        "commitHash": "3d11c6857b801d9a9f534206c619735743d430f0",
+        "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/15085228069"
+      },
+      "gitCommit": {
+        "shortHash": "3d11c68",
+        "hash": "3d11c6857b801d9a9f534206c619735743d430f0",
+        "subject": "4 tests",
+        "body": "4 tests\n",
+        "author": {
+          "name": "faruklmu17",
+          "email": "farukqmul@gmail.com",
+          "time": 1747485172000
+        },
+        "committer": {
+          "name": "faruklmu17",
+          "email": "farukqmul@gmail.com",
+          "time": 1747485172000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -33,15 +55,37 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/test-results",
+        "outputDir": "/home/runner/work/browser_extension_test/browser_extension_test/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
-          "actualWorkers": 4
+          "ci": {
+            "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/3d11c6857b801d9a9f534206c619735743d430f0",
+            "commitHash": "3d11c6857b801d9a9f534206c619735743d430f0",
+            "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/15085228069"
+          },
+          "gitCommit": {
+            "shortHash": "3d11c68",
+            "hash": "3d11c6857b801d9a9f534206c619735743d430f0",
+            "subject": "4 tests",
+            "body": "4 tests\n",
+            "author": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1747485172000
+            },
+            "committer": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1747485172000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
+        "testDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -53,7 +97,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.52.0",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
@@ -79,12 +123,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1078,
+                  "duration": 294,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-17T12:32:32.097Z",
+                  "startTime": "2025-05-17T12:34:27.437Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -110,15 +154,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1490,
+                  "duration": 333,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-17T12:32:32.087Z",
+                  "startTime": "2025-05-17T12:34:27.913Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -144,15 +188,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1725,
+                  "duration": 334,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-17T12:32:32.087Z",
+                  "startTime": "2025-05-17T12:34:28.251Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -178,15 +222,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1490,
+                  "duration": 411,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-17T12:32:32.095Z",
+                  "startTime": "2025-05-17T12:34:28.590Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -204,8 +248,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-17T12:32:31.288Z",
-    "duration": 2993.404,
+    "startTime": "2025-05-17T12:34:26.791Z",
+    "duration": 2258.384,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,
