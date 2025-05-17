@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -37,7 +37,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 4
         },
         "id": "chromium",
         "name": "chromium",
@@ -79,12 +79,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 683,
+                  "duration": 1078,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-16T22:10:18.830Z",
+                  "startTime": "2025-05-17T12:32:32.097Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -113,12 +113,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 844,
+                  "duration": 1490,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-16T22:10:18.830Z",
+                  "startTime": "2025-05-17T12:32:32.087Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,15 +130,83 @@
           "file": "example.spec.ts",
           "line": 10,
           "column": 5
+        },
+        {
+          "title": "get started link1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1725,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-17T12:32:32.087Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-6084c35904ae75c4e384",
+          "file": "example.spec.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "get started link2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1490,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-17T12:32:32.095Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-6287bd7464a7f211a6e4",
+          "file": "example.spec.ts",
+          "line": 30,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-16T22:10:18.468Z",
-    "duration": 1523.962,
-    "expected": 2,
+    "startTime": "2025-05-17T12:32:31.288Z",
+    "duration": 2993.404,
+    "expected": 4,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
