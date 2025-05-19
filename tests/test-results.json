@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "reporter": [
@@ -37,7 +37,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 3
         },
         "id": "chromium",
         "name": "chromium",
@@ -79,12 +79,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3259,
+                  "duration": 3531,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T03:03:40.545Z",
+                  "startTime": "2025-05-19T03:36:35.185Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -113,12 +113,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3276,
+                  "duration": 3460,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T03:03:40.544Z",
+                  "startTime": "2025-05-19T03:36:35.232Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,15 +130,49 @@
           "file": "example.spec.ts",
           "line": 11,
           "column": 5
+        },
+        {
+          "title": "has title2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3528,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-19T03:36:35.204Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-3a017b1119b32515213e",
+          "file": "example.spec.ts",
+          "line": 18,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-19T03:03:39.580Z",
-    "duration": 8871.436,
-    "expected": 2,
+    "startTime": "2025-05-19T03:36:33.901Z",
+    "duration": 5167.701999999999,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
