@@ -51,22 +51,6 @@
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 30000
-      },
-      {
-        "outputDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 4
-        },
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 30000
       }
     ],
     "shard": null,
@@ -99,12 +83,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 778,
+                  "duration": 762,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T17:33:05.511Z",
+                  "startTime": "2025-05-19T17:39:11.516Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -133,12 +117,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 779,
+                  "duration": 733,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T17:33:05.515Z",
+                  "startTime": "2025-05-19T17:39:11.519Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -167,12 +151,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 798,
+                  "duration": 752,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T17:33:05.511Z",
+                  "startTime": "2025-05-19T17:39:11.525Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -201,12 +185,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 781,
+                  "duration": 732,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T17:33:05.516Z",
+                  "startTime": "2025-05-19T17:39:11.520Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -235,12 +219,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 244,
+                  "duration": 248,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-19T17:33:06.742Z",
+                  "startTime": "2025-05-19T17:39:12.701Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -252,185 +236,15 @@
           "file": "example.spec.ts",
           "line": 31,
           "column": 5
-        },
-        {
-          "title": "has title",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 2113,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-05-19T17:33:07.405Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-f53a5ad453cd33dc57d5",
-          "file": "example.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "has title1",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2006,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-05-19T17:33:07.405Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-e59aa2d6fa1b21b591c3",
-          "file": "example.spec.ts",
-          "line": 11,
-          "column": 5
-        },
-        {
-          "title": "has title2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 2138,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-05-19T17:33:07.408Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-cd24156bc1983a11b029",
-          "file": "example.spec.ts",
-          "line": 18,
-          "column": 5
-        },
-        {
-          "title": "has title3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "parallelIndex": 3,
-                  "status": "passed",
-                  "duration": 2455,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-05-19T17:33:07.588Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-136da7235f6c34e3b51d",
-          "file": "example.spec.ts",
-          "line": 24,
-          "column": 5
-        },
-        {
-          "title": "has title4",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 868,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-05-19T17:33:10.910Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-c26bb51c9ba440356c0e",
-          "file": "example.spec.ts",
-          "line": 31,
-          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-19T17:33:04.842Z",
-    "duration": 8209.368999999999,
-    "expected": 10,
+    "startTime": "2025-05-19T17:39:10.896Z",
+    "duration": 2081.8860000000004,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
