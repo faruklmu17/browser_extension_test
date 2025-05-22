@@ -63,16 +63,16 @@ test('has title8', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-// test('has title9', async ({ page }) => {
-//   await page.goto('https://playwright.dev/');
+test('has title9', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
-//   // Expect a title "to contain" a substring.
-//   await expect(page).toHaveTitle(/Playwright/);
-// });
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright/);
+});
 
-// test('has title10', async ({ page }) => {
-//   await page.goto('https://playwright.dev/');
+test('has title10', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
-//   // Expect a title "to contain" a substring.
-//   await expect(page).toHaveTitle(/Playwright/);
-// });
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright/);
+});
