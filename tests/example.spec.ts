@@ -21,3 +21,10 @@ test('has title2', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle("");
 });
+
+test('has title3', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle("");
+});
