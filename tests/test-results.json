@@ -1,8 +1,8 @@
 {
   "config": {
-    "configFile": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/playwright.config.ts",
-    "rootDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
-    "forbidOnly": false,
+    "configFile": "/home/runner/work/browser_extension_test/browser_extension_test/playwright.config.ts",
+    "rootDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
+    "forbidOnly": true,
     "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
@@ -11,7 +11,29 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "ci": {
+        "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+        "commitHash": "91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+        "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/19775965304"
+      },
+      "gitCommit": {
+        "shortHash": "91f9d58",
+        "hash": "91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+        "subject": "new tests added",
+        "body": "new tests added\n",
+        "author": {
+          "name": "faruklmu17",
+          "email": "farukqmul@gmail.com",
+          "time": 1764373860000
+        },
+        "committer": {
+          "name": "faruklmu17",
+          "email": "farukqmul@gmail.com",
+          "time": 1764373860000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -37,15 +59,37 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/test-results",
+        "outputDir": "/home/runner/work/browser_extension_test/browser_extension_test/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
-          "actualWorkers": 4
+          "ci": {
+            "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+            "commitHash": "91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+            "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/19775965304"
+          },
+          "gitCommit": {
+            "shortHash": "91f9d58",
+            "hash": "91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+            "subject": "new tests added",
+            "body": "new tests added\n",
+            "author": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1764373860000
+            },
+            "committer": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1764373860000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
+        "testDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -53,15 +97,37 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/test-results",
+        "outputDir": "/home/runner/work/browser_extension_test/browser_extension_test/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
-          "actualWorkers": 4
+          "ci": {
+            "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+            "commitHash": "91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+            "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/19775965304"
+          },
+          "gitCommit": {
+            "shortHash": "91f9d58",
+            "hash": "91f9d58697d14aa55604fa6c6d188ecae4a165b5",
+            "subject": "new tests added",
+            "body": "new tests added\n",
+            "author": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1764373860000
+            },
+            "committer": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1764373860000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
-        "testDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
+        "testDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -73,7 +139,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.52.0",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
@@ -99,12 +165,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 689,
+                  "duration": 420,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.103Z",
+                  "startTime": "2025-11-28T23:52:23.424Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,15 +196,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 688,
+                  "duration": 328,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.118Z",
+                  "startTime": "2025-11-28T23:52:23.936Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -164,15 +230,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 704,
+                  "duration": 322,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.106Z",
+                  "startTime": "2025-11-28T23:52:24.270Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -183,6 +249,660 @@
           "id": "a30a6eba6312f6b87ea5-3a017b1119b32515213e",
           "file": "example.spec.ts",
           "line": 18,
+          "column": 5
+        },
+        {
+          "title": "has title3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:52:24.596Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-6cf9438da7119d387a80",
+          "file": "example.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "has title4",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5282,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    7 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    7 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 36
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 37 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 38 |\u001b[39m\n \u001b[90m 39 |\u001b[39m test(\u001b[32m'has title5'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 36
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    7 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  34 |\n  35 |   // Expect a title \"to contain\" a substring.\n> 36 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  37 | });\n  38 |\n  39 | test('has title5', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:52:24.893Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-chromium/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 36
+                  }
+                },
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5468,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 36
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 37 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 38 |\u001b[39m\n \u001b[90m 39 |\u001b[39m test(\u001b[32m'has title5'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 36
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  34 |\n  35 |   // Expect a title \"to contain\" a substring.\n> 36 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  37 | });\n  38 |\n  39 | test('has title5', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:52:30.856Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-chromium-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-chromium-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 36
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5288,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 36
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 37 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 38 |\u001b[39m\n \u001b[90m 39 |\u001b[39m test(\u001b[32m'has title5'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 36
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  34 |\n  35 |   // Expect a title \"to contain\" a substring.\n> 36 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  37 | });\n  38 |\n  39 | test('has title5', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:52:37.127Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-chromium-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 36
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-c288e6f9d7a9d38e9162",
+          "file": "example.spec.ts",
+          "line": 32,
+          "column": 5
+        },
+        {
+          "title": "has title5",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5338,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 43
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m test(\u001b[32m'has title6'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 43
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  41 |\n  42 |   // Expect a title \"to contain\" a substring.\n> 43 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  44 | });\n  45 |\n  46 | test('has title6', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:52:43.128Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-chromium/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 43
+                  }
+                },
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5462,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 43
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m test(\u001b[32m'has title6'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 43
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  41 |\n  42 |   // Expect a title \"to contain\" a substring.\n> 43 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  44 | });\n  45 |\n  46 | test('has title6', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:52:49.181Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-chromium-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-chromium-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 43
+                  }
+                },
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5318,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 43
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m test(\u001b[32m'has title6'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 43
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  41 |\n  42 |   // Expect a title \"to contain\" a substring.\n> 43 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  44 | });\n  45 |\n  46 | test('has title6', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:52:55.442Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-chromium-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 43
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-915d7e72746b3b57f6fe",
+          "file": "example.spec.ts",
+          "line": 39,
+          "column": 5
+        },
+        {
+          "title": "has title6",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5304,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 50
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\n \u001b[90m 49 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m test(\u001b[32m'has title7'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 50
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  48 |\n  49 |   // Expect a title \"to contain\" a substring.\n> 50 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  51 | });\n  52 |\n  53 | test('has title7', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:53:01.469Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-chromium/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 50
+                  }
+                },
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5447,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 50
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\n \u001b[90m 49 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m test(\u001b[32m'has title7'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 50
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  48 |\n  49 |   // Expect a title \"to contain\" a substring.\n> 50 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  51 | });\n  52 |\n  53 | test('has title7', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:53:07.485Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-chromium-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-chromium-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 50
+                  }
+                },
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5307,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 50
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\n \u001b[90m 49 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m test(\u001b[32m'has title7'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 50
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  48 |\n  49 |   // Expect a title \"to contain\" a substring.\n> 50 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  51 | });\n  52 |\n  53 | test('has title7', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:53:13.716Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-chromium-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 50
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-ca14ba9a720ac131baa2",
+          "file": "example.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "has title7",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5343,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  55 |\n  56 |   // Expect a title \"to contain\" a substring.\n> 57 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  58 | });\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:53:19.737Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-chromium/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5423,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  55 |\n  56 |   // Expect a title \"to contain\" a substring.\n> 57 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  58 | });\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:53:25.792Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-chromium-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-chromium-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5323,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  55 |\n  56 |   // Expect a title \"to contain\" a substring.\n> 57 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  58 | });\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:53:32.010Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-chromium-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 57
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-49ae5fa2c3e4adcb8550",
+          "file": "example.spec.ts",
+          "line": 53,
           "column": 5
         },
         {
@@ -198,15 +918,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1945,
+                  "duration": 1279,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.106Z",
+                  "startTime": "2025-11-28T23:53:38.047Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -232,15 +952,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 12,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1591,
+                  "duration": 573,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:27.932Z",
+                  "startTime": "2025-11-28T23:53:39.773Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -266,15 +986,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 5,
-                  "parallelIndex": 1,
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2056,
+                  "duration": 491,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:27.928Z",
+                  "startTime": "2025-11-28T23:53:40.351Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -286,17 +1006,671 @@
           "file": "example.spec.ts",
           "line": 18,
           "column": 5
+        },
+        {
+          "title": "has title3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 569,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:53:40.848Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-136da7235f6c34e3b51d",
+          "file": "example.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "has title4",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5539,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    7 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    7 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 36
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 37 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 38 |\u001b[39m\n \u001b[90m 39 |\u001b[39m test(\u001b[32m'has title5'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 36
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    7 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  34 |\n  35 |   // Expect a title \"to contain\" a substring.\n> 36 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  37 | });\n  38 |\n  39 | test('has title5', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:53:41.423Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-firefox/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 36
+                  }
+                },
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6424,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 36
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 37 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 38 |\u001b[39m\n \u001b[90m 39 |\u001b[39m test(\u001b[32m'has title5'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 36
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  34 |\n  35 |   // Expect a title \"to contain\" a substring.\n> 36 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  37 | });\n  38 |\n  39 | test('has title5', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:53:48.117Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-firefox-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-firefox-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 36
+                  }
+                },
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6250,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    2 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    2 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 36
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 37 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 38 |\u001b[39m\n \u001b[90m 39 |\u001b[39m test(\u001b[32m'has title5'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 36
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    2 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-rh=\"lang,dir,class\" data-has-hydrated=\"false\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  34 |\n  35 |   // Expect a title \"to contain\" a substring.\n> 36 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  37 | });\n  38 |\n  39 | test('has title5', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:36:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:53:56.180Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title4-firefox-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 36
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-c26bb51c9ba440356c0e",
+          "file": "example.spec.ts",
+          "line": 32,
+          "column": 5
+        },
+        {
+          "title": "has title5",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6194,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 43
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m test(\u001b[32m'has title6'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 43
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  41 |\n  42 |   // Expect a title \"to contain\" a substring.\n> 43 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  44 | });\n  45 |\n  46 | test('has title6', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:54:03.906Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-firefox/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 43
+                  }
+                },
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6379,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 43
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m test(\u001b[32m'has title6'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 43
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  41 |\n  42 |   // Expect a title \"to contain\" a substring.\n> 43 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  44 | });\n  45 |\n  46 | test('has title6', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:54:11.578Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-firefox-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-firefox-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 43
+                  }
+                },
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6250,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 43
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\n \u001b[90m 42 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 45 |\u001b[39m\n \u001b[90m 46 |\u001b[39m test(\u001b[32m'has title6'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 43
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  41 |\n  42 |   // Expect a title \"to contain\" a substring.\n> 43 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  44 | });\n  45 |\n  46 | test('has title6', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:43:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:54:19.601Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title5-firefox-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 43
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-51e7323973c075205245",
+          "file": "example.spec.ts",
+          "line": 39,
+          "column": 5
+        },
+        {
+          "title": "has title6",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 18,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6215,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 50
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\n \u001b[90m 49 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m test(\u001b[32m'has title7'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 50
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  48 |\n  49 |   // Expect a title \"to contain\" a substring.\n> 50 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  51 | });\n  52 |\n  53 | test('has title7', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:54:27.329Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-firefox/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 50
+                  }
+                },
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6399,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 50
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\n \u001b[90m 49 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m test(\u001b[32m'has title7'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 50
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  48 |\n  49 |   // Expect a title \"to contain\" a substring.\n> 50 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  51 | });\n  52 |\n  53 | test('has title7', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:54:35.012Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-firefox-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-firefox-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 50
+                  }
+                },
+                {
+                  "workerIndex": 20,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6184,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 50
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\n \u001b[90m 49 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 51 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 52 |\u001b[39m\n \u001b[90m 53 |\u001b[39m test(\u001b[32m'has title7'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 50
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  48 |\n  49 |   // Expect a title \"to contain\" a substring.\n> 50 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  51 | });\n  52 |\n  53 | test('has title7', async ({ page }) => {\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:50:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:54:43.060Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title6-firefox-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 50
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-8ce7127ba5f3a7f52d1f",
+          "file": "example.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "has title7",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6201,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  55 |\n  56 |   // Expect a title \"to contain\" a substring.\n> 57 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  58 | });\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T23:54:50.718Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-firefox/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 22,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6475,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  55 |\n  56 |   // Expect a title \"to contain\" a substring.\n> 57 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  58 | });\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-11-28T23:54:58.387Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-firefox-retry1/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-firefox-retry1/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 23,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6200,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22",
+                    "location": {
+                      "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                      "column": 22,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m   \u001b[90m// Expect a title \"to contain\" a substring.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                        "column": 22,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"\"\u001b[39m\nReceived string: \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    8 × unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\u001b[2m      - locator resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"light\" data-has-hydrated=\"true\" data-theme-choice=\"system\" class=\"plugin-pages plugin-id-default\" data-rh=\"lang,dir,class,data-has-hydrated\">…</html>\u001b[22m\n\u001b[2m    - unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[22m\n\n\n  55 |\n  56 |   // Expect a title \"to contain\" a substring.\n> 57 |   await expect(page).toHaveTitle(\"\");\n     |                      ^\n  58 | });\n    at /home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts:57:22"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-11-28T23:55:06.529Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "/home/runner/work/browser_extension_test/browser_extension_test/test-results/example-has-title7-firefox-retry2/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/runner/work/browser_extension_test/browser_extension_test/tests/example.spec.ts",
+                    "column": 22,
+                    "line": 57
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-3b3ccf60e49f26f592d5",
+          "file": "example.spec.ts",
+          "line": 53,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-01T12:50:23.084Z",
-    "duration": 8961.142,
-    "expected": 6,
+    "startTime": "2025-11-28T23:52:22.757Z",
+    "duration": 170838.635,
+    "expected": 8,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 8,
     "flaky": 0
   }
 }
