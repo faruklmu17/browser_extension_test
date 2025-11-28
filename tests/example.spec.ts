@@ -42,3 +42,17 @@ test('has title5', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle("");
 });
+
+test('has title6', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle("");
+});
+
+test('has title7', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle("");
+});
