@@ -1,8 +1,8 @@
 {
   "config": {
-    "configFile": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/playwright.config.ts",
-    "rootDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
-    "forbidOnly": false,
+    "configFile": "/home/runner/work/browser_extension_test/browser_extension_test/playwright.config.ts",
+    "rootDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
+    "forbidOnly": true,
     "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
@@ -11,7 +11,29 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "ci": {
+        "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+        "commitHash": "8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+        "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/20135015371"
+      },
+      "gitCommit": {
+        "shortHash": "8c1a6cb",
+        "hash": "8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+        "subject": "updated tests",
+        "body": "updated tests\n",
+        "author": {
+          "name": "faruklmu17",
+          "email": "farukqmul@gmail.com",
+          "time": 1765460295000
+        },
+        "committer": {
+          "name": "faruklmu17",
+          "email": "farukqmul@gmail.com",
+          "time": 1765460295000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -37,15 +59,37 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/test-results",
+        "outputDir": "/home/runner/work/browser_extension_test/browser_extension_test/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
-          "actualWorkers": 4
+          "ci": {
+            "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+            "commitHash": "8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+            "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/20135015371"
+          },
+          "gitCommit": {
+            "shortHash": "8c1a6cb",
+            "hash": "8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+            "subject": "updated tests",
+            "body": "updated tests\n",
+            "author": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1765460295000
+            },
+            "committer": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1765460295000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
+        "testDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -53,15 +97,37 @@
         "timeout": 30000
       },
       {
-        "outputDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/test-results",
+        "outputDir": "/home/runner/work/browser_extension_test/browser_extension_test/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 2,
         "metadata": {
-          "actualWorkers": 4
+          "ci": {
+            "commitHref": "https://github.com/faruklmu17/browser_extension_test/commit/8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+            "commitHash": "8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+            "buildHref": "https://github.com/faruklmu17/browser_extension_test/actions/runs/20135015371"
+          },
+          "gitCommit": {
+            "shortHash": "8c1a6cb",
+            "hash": "8c1a6cbc80d658b60b74bfd94cd588aa87ad55aa",
+            "subject": "updated tests",
+            "body": "updated tests\n",
+            "author": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1765460295000
+            },
+            "committer": {
+              "name": "faruklmu17",
+              "email": "farukqmul@gmail.com",
+              "time": 1765460295000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
-        "testDir": "/Users/farukhasan/Desktop/browser_extension_test/browser_extension_test/tests",
+        "testDir": "/home/runner/work/browser_extension_test/browser_extension_test/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -73,7 +139,7 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.52.0",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
@@ -99,12 +165,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 689,
+                  "duration": 273,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.103Z",
+                  "startTime": "2025-12-11T13:39:29.508Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,15 +196,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 688,
+                  "duration": 217,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.118Z",
+                  "startTime": "2025-12-11T13:39:29.857Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -164,15 +230,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 704,
+                  "duration": 207,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.106Z",
+                  "startTime": "2025-12-11T13:39:30.080Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -198,15 +264,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1945,
+                  "duration": 1359,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:24.106Z",
+                  "startTime": "2025-12-11T13:39:30.942Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -232,15 +298,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1591,
+                  "duration": 508,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:27.932Z",
+                  "startTime": "2025-12-11T13:39:32.687Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -266,15 +332,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 5,
-                  "parallelIndex": 1,
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2056,
+                  "duration": 409,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-01T12:50:27.928Z",
+                  "startTime": "2025-12-11T13:39:33.201Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -292,8 +358,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-01T12:50:23.084Z",
-    "duration": 8961.142,
+    "startTime": "2025-12-11T13:39:28.848Z",
+    "duration": 5298.633,
     "expected": 6,
     "skipped": 0,
     "unexpected": 0,
