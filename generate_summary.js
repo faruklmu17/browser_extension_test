@@ -8,6 +8,7 @@ class SummaryReporter {
 
   onEnd(result) {
     const summary = {
+      schemaVersion: 1,
       passed: 0,
       failed: 0,
       flaky: 0,
