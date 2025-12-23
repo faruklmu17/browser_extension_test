@@ -14,6 +14,9 @@ permissions:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -56,5 +59,6 @@ jobs:
           path: public
 
       - name: Deploy
+        id: deployment
         if: always()
         uses: actions/deploy-pages@v4
