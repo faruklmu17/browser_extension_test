@@ -37,13 +37,13 @@ jobs:
           git commit -m "Update test summary [skip ci]" || echo "No changes"
           git push
 
-      - name: Prepare Pages artifact (ONLY test-summary.json)
+      - name: Prepare Pages artifact (Summary and Dashboard)
         if: always()
         run: |
           mkdir -p public
           cp test-summary.json public/test-summary.json
-          # also copy to results.json if that's what's expected
           cp test-summary.json public/results.json
+          cp index.html public/index.html
           touch public/.nojekyll
 
       - name: Configure Pages
