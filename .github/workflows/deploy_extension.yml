@@ -47,6 +47,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add test-summary.json
           git commit -m "Update test summary [skip ci]" || echo "No changes"
+          git pull --rebase origin main
           git push
 
       - name: Prepare Pages artifact (Summary and results)
