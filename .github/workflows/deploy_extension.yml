@@ -1,6 +1,6 @@
 
 
-name: Deploy results.json to GitHub Pages
+name: Deploy Test Results to AWS S3 and GitHub Pages
 
 on:
   push:
@@ -30,6 +30,15 @@ jobs:
 
       - name: Run Playwright tests
         run: npx playwright test
+
+      - name: Upload results to AWS S3
+        if: always()
+        run: |
+          aws s3 cp test-summary.json s3://my-test-result-123/results.json --acl public-read
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-2
 
       - name: Commit and push updated results
         if: always()
