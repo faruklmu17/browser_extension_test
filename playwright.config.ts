@@ -77,3 +77,7 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
+reporter: [
+  ['html'],
+  ['json', { outputFile: 'tests/test-results.json' }]
+]
