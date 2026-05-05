@@ -47,7 +47,7 @@ test('search functionality is present', async ({ page }) => {
 test('page has proper language attribute', async ({ page }) => {
   await page.goto('https://playwright.dev/');
   const html = page.locator('html');
-  await expect(html).toHaveAttribute('lang', 'en');
+  await expect(html).toHaveAttribute('lang', 'x');
 });
 
 test('logo has alt text', async ({ page }) => {

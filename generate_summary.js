@@ -14,15 +14,22 @@ class SummaryReporter {
       flaky: 0,
       total: 0,
       startTime: new Date().toISOString(),
-      isSummary: true
+      isSummary: true,
+      failedTests: [] // 👈 NEW: Added array to hold names
     };
 
     // Playwright gives us all the results directly through the suite
     if (this.rootSuite) {
       for (const test of this.rootSuite.allTests()) {
         const status = test.outcome(); // 'expected', 'unexpected', or 'flaky'
+        
         if (status === 'expected') summary.passed++;
-        if (status === 'unexpected') summary.failed++;
+        
+        if (status === 'unexpected') {
+          summary.failed++;
+          summary.failedTests.push(test.title); // 👈 NEW: Push the name of the failing test
+        }
+        
         if (status === 'flaky') summary.flaky++;
       }
     }
