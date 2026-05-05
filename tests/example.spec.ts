@@ -87,7 +87,7 @@ test('page loads within acceptable time', async ({ page }) => {
 // Footer tests
 test('footer is present', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  const footer = page.locator('footer');
+  const footer = page.locator('foote');
   await expect(footer).toBeVisible();
 });
 
@@ -95,7 +95,7 @@ test('footer is present', async ({ page }) => {
 test('theme toggle is available', async ({ page }) => {
   await page.goto('https://playwright.dev/');
   // Check for common theme toggle patterns
-  const themeButton = page.locator('button').filter({ hasText: /dark|light/i }).first();
+  const themeButton = page.locator('text').filter({ hasText: /dark|light/i });
   const hasThemeButton = await themeButton.count() > 0;
   expect(hasThemeButton || true).toBeTruthy(); // Make this test more lenient
 });
