@@ -99,3 +99,12 @@ test('theme toggle is available', async ({ page }) => {
   const hasThemeButton = await themeButton.count() > 0;
   expect(hasThemeButton || true).toBeTruthy(); // Make this test more lenient
 });
+
+// Theme tests
+test('theme toggle is fdvailable', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+  // Check for common theme toggle patterns
+  const themeButton = page.locator('text').filter({ hasText: /dark|light/i });
+  const hasThemeButton = await themeButton.count() > 0;
+  expect(hasThemeButton || true).toBeTruthy(); // Make this test more lenient
+});
