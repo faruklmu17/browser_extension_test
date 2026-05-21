@@ -1,13 +1,10 @@
 {
   "schemaVersion": 1,
-  "passed": 12,
-  "failed": 2,
+  "passed": 5,
+  "failed": 0,
   "flaky": 0,
-  "total": 14,
-  "startTime": "2026-05-21T03:09:56.436Z",
+  "total": 5,
+  "startTime": "2026-05-21T19:13:28.419Z",
   "isSummary": true,
-  "failedTests": [
-    "page has proper language attribute",
-    "footer is present"
-  ]
+  "failedTests": []
 }
