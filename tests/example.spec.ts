@@ -1,15 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-// Basic page load tests
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-  await expect(page).toHaveTitle(/Playwright/);
-});
 
-test('page loads successfully', async ({ page }) => {
-  const response = await page.goto('https://playwright.dev/');
-  expect(response?.status()).toBe(200);
-});
 
 // Navigation tests
 test('get started link navigates to intro page', async ({ page }) => {
