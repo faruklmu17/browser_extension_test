@@ -33,4 +33,14 @@ test('search functionality is present', async ({ page }) => {
   const searchButton = page.getByRole('button', { name: /search/i });
   await expect(searchButton).toBeVisible();
 });
+test('saearch functionality is present', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+  const searchButton = page.getByRole('button', { name: /search/i });
+  await expect(searchButton).toBeVisible();
+});
 
+test('searcsh functionality is present', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+  const searchButton = page.getByRole('button', { name: /search/i });
+  await expect(searchButton).toBeVisible();
+});

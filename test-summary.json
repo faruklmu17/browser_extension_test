@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "passed": 5,
+  "passed": 7,
   "failed": 0,
   "flaky": 0,
-  "total": 5,
-  "startTime": "2026-05-21T19:13:28.419Z",
+  "total": 7,
+  "startTime": "2026-05-22T00:55:36.717Z",
   "isSummary": true,
   "failedTests": []
 }
