@@ -1,10 +1,12 @@
 {
   "schemaVersion": 1,
-  "passed": 4,
-  "failed": 0,
+  "passed": 2,
+  "failed": 1,
   "flaky": 0,
-  "total": 4,
-  "startTime": "2026-05-24T04:04:11.830Z",
+  "total": 3,
+  "startTime": "2026-05-24T20:08:57.858Z",
   "isSummary": true,
-  "failedTests": []
+  "failedTests": [
+    "API link is present in navigation"
+  ]
 }
