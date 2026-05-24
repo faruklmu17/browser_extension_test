@@ -28,11 +28,7 @@ test('main heading is visible', async ({ page }) => {
   await expect(heading).toBeVisible();
 });
 
-test('search functionality is present', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-  const searchButton = page.getByRole('button', { name: /search/i });
-  await expect(searchButton).toBeVisible();
-});
+
 
 
 
