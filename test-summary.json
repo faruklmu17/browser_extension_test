@@ -4,7 +4,7 @@
   "failed": 1,
   "flaky": 0,
   "total": 4,
-  "startTime": "2026-05-27T16:15:37.398Z",
+  "startTime": "2026-05-27T16:17:10.909Z",
   "isSummary": true,
   "failedTests": [
     "API link is present in navigation"
